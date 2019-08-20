@@ -14,3 +14,12 @@ cordova plugin add https://github.com/wolfhous/CABasicPlugin.git
 ```
 cordova plugin remove CABasicPlugin
 ```
+
+
+
+### 查看已经安装的插件
+
+```
+cordova plugin list
+
+```
