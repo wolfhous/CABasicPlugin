@@ -1,0 +1,17 @@
+{
+  "name": "CABasicPlugin",
+  "version": "1.0.0",
+  "description": "changan analytics plugin",
+  "cordova": {
+    "id": "CABasicPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "CABasicPlugin",
+  "license": "ISC"
+}

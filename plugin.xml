@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="CABasicPlugin"
+        version="1.0.0">
+    
+    <name>CABasicPlugin</name>
+    
+    <js-module src="www/CABasicPlugin.js" name="CABasicPlugin">
+        <clobbers target="CABasicPlugin" />
+    </js-module>
+    
+    <!-- ios -->
+    <platform name="ios">
+        
+        <header-file src="src/ios/CABasicPlugin.h" />
+        <source-file src="src/ios/CABasicPlugin.m" />
+        
+        <config-file target="config.xml" parent="/widget/plugins">
+            <feature name="CABasicPlugin">
+                <param name="ios-package" value="CABasicPlugin"/>
+            </feature>
+        </config-file>
+        
+    </platform>
+    
+</plugin>
